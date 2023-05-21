@@ -1,0 +1,39 @@
+{
+  "source": "url" // a single source field may appear for remote configurations
+  "cluster": {...},
+  "consensus": {  // either crdt or raft
+    "crdt": {...},
+    "raft": {...},
+  },
+  "api": {
+    "ipfsproxy": {...},
+    "restapi": {...}
+  },
+  "ipfs_connector": {
+    "ipfshttp": {...}
+  },
+  "pin_tracker": {
+    "stateless": {...}
+  },
+  "monitor": {
+    "pubsubmon": {...}
+  },
+  "allocator": {
+    "balanced": {...}
+  },
+  "informer": {
+    "disk": {...},
+	"tags": {...},
+	"pinqueue": {...},
+  },
+  "observations": {
+    "metrics": {...},
+    "tracing": {...}
+  },
+  "datastore": {  // either pebble, badger3, badger or leveldb
+    "pebble": {...},
+	"badger3": {...},
+	"badger": {...},
+    "leveldb": {...},
+  }
+}

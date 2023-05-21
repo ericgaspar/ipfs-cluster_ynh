@@ -13,7 +13,8 @@ maintainers = [""]
 license = "MIT"
 website = "https://example.com"
 demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
+admindoc = "https://github.com/ipfs-cluster/ipfs-cluster/blob/v1.0.6/README.md"
+userdoc = "https://ipfscluster.io/documentation/"
 code = "https://some.forge.com/example/example"
 
 [integration]
