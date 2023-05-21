@@ -49,6 +49,7 @@ ynh_script_progression --message="Adding a configuration file..." --weight=1
 
 pushd "$install_dir"
 	./ipfs-cluster-service init
+	mv /root/.ipfs-cluster $install_dir/.ipfs-cluster
 popd
 
 #=================================================
