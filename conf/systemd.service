@@ -7,7 +7,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/ipfs-cluster-service -c $install_dir/.ipfs-cluster
+ExecStart=__INSTALL_DIR__/ipfs-cluster-service init -c $install_dir/.ipfs-cluster
 
 # Sandboxing options to harden security
 # Depending on specificities of your service/app, you may need to tweak these
